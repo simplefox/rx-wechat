@@ -1,9 +1,9 @@
 # rx-wechat
 限制微信和google框架的广播行为.
 </br>
-## Thanks
-[MyAndroidTools](https://play.google.com/store/apps/details?id=cn.wq.myandroidtools&hl=zh)
+## 感谢
+[绿色守护](https://uploadocean.com/tmd4veetixcb)
 
-[Greenify](https://greenify.github.io/README.chs.html)
+[处方](https://greenify.github.io/README.chs.html)
 ## 导入
 [点击这里](https://greenify.github.io/simplefox/rx-wechat)
