@@ -1,0 +1,32 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+ <prescription type="service" class="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" sender="any"/>
+ <prescription type="service" class="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" sender="any"/>
+ <prescription type="service" class="com.tencent.mm/com.tencent.mm.sandbox.updater.UpdaterService" sender="any"/>
+ <prescription type="service" class="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.ClickFlowReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.BluetoothStateReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MountReceive" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.BluetoothReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.backup.bakoldmodel.BakOldUSBReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.base.stub.WXEntryActivity$EntryReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.InstallReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.pluginsdk.model.downloader.FileDownloadReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.exdevice.devicestep.StepAwakeAlarmReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver1" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver2" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver3" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.plugin.appbrand.task.AppBrandTaskPreloadReceiver4" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MMReceivers$SandBoxProcessReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MMReceivers$ExdeviceProcessReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MMReceivers$ConnectionReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.tencent.mm.booter.MMReceivers$AlarmReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.google.android.gms/com.google.android.gms.update.SystemUpdateService\$ActiveReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.google.android.gms/com.google.android.gms.ads.social.DoritosReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementBroadcastReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.google.android.gms/com.google.android.gms.mdm.receivers.ConnectivityReceiver" sender="any"/>
+ <prescription type="broadcast" class="com.google.android.gms/com.google.android.gms.common.analytics.CoreAnalyticsAlarmReceiver" sender="any"/>
+</prescriptions>
